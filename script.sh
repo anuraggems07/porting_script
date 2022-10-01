@@ -28,7 +28,7 @@ pip install h5py
 pip install hererocks
 echo "====================== hererocks installed================="
 apt-get -y install libreadline-dev
-apt-get install curl wget
+apt-get -y install curl wget
 hererocks here --lua 5.1 --luarocks 2.2
 
 export PATH="$(pwd)/here/bin/:$PATH"
@@ -51,6 +51,7 @@ echo "============building started================="
 
 luarocks make
 echo "============build of setup.py started================="
+pip install cython
 python3 setup.py build
 python3 setup.py nosetests
 
