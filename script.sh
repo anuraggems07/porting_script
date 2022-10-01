@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo docker run -it ubuntu
 apt-get -y update
 apt-get -y install git
 echo "============git installed================="
