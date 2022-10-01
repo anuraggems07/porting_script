@@ -1,4 +1,16 @@
 #!/bin/bash
+# -----------------------------------------------------------------------------
+#
+# Package    	    : spotify-annoy
+# Version    	    : 1.17.0	
+# Source repo 	  : https://github.com/spotify/annoy.git
+# Tested on     	: 
+# Language        : python, C++, lua, go 
+# Script License  : Apache License 2.0
+# Maintainer      : Anurag Chitrakar <anurag_chitrakar@persistent.com>
+# Disclaimer      : Python module (written in C++) for high-dimensional approximate nearest neighbors (ANN) queries
+#
+# ----------------------------------------------------------------------------
 apt-get -y update
 apt-get -y install git
 echo "============git installed================="
