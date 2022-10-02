@@ -63,7 +63,7 @@ echo "============build started================="
 
 luarocks make
 echo "============build of setup.py started================="
-pip install cython
+pip3 install cython
 python3 setup.py build
 python3 setup.py nosetests
 
