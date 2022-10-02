@@ -7,7 +7,7 @@
 # Tested on     	: ubuntu-latest
 # Language        : python, C++, lua, go 
 # Script License  : Apache License 2.0
-# Maintainer      : Anurag Chitrakar <anurag_chitrakar@persistent.com>
+# Maintainer      : Anurag Chitrakar <anurag_chitrakar.com>
 # Disclaimer      : Python module (written in C++) for high-dimensional approximate nearest neighbors (ANN) queries
 #
 # ----------------------------------------------------------------------------
