@@ -1,11 +1,12 @@
 #!/bin/bash
 # -----------------------------------------------------------------------------
 #
-# Package    	    : spotify-annoy
-# Version    	    : 1.17.0	
+# Package    	    : Annoy
+# Version    	    : be83fba
 # Source repo 	  : https://github.com/spotify/annoy.git
-# Tested on     	: ubuntu-latest
+# Tested on     	: 
 # Language        : python, C++, lua, go 
+# Travis-Check    : false
 # Script License  : Apache License 2.0
 # Maintainer      : Anurag Chitrakar <anurag_chitrakar.com>
 # Disclaimer      : Python module (written in C++) for high-dimensional approximate nearest neighbors (ANN) queries
