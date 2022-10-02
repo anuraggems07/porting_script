@@ -39,8 +39,8 @@ apt-get -y install libhdf5-dev
 pip install h5py
 pip install hererocks
 echo "====================== hererocks installed================="
-apt-get -y install libreadline-dev
-apt-get -y install curl wget
+#apt-get -y install libreadline-dev
+apt-get -y install curl
 hererocks here --lua 5.1 --luarocks 2.2
 
 export PATH="$(pwd)/here/bin/:$PATH"
