@@ -4,7 +4,7 @@
 # Package    	    : spotify-annoy
 # Version    	    : 1.17.0	
 # Source repo 	  : https://github.com/spotify/annoy.git
-# Tested on     	: 
+# Tested on     	: ubuntu-latest
 # Language        : python, C++, lua, go 
 # Script License  : Apache License 2.0
 # Maintainer      : Anurag Chitrakar <anurag_chitrakar@persistent.com>
@@ -59,7 +59,7 @@ echo "======================tox installed================="
 cd tmp/
 git clone -q https://github.com/spotify/annoy.git C:\projects\annoy
 cd C:projectsannoy/
-echo "============building started================="
+echo "============build started================="
 
 luarocks make
 echo "============build of setup.py started================="
