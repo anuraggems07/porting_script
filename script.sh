@@ -35,7 +35,7 @@ apt-get -y install pip
 echo "====================== pip installed================="
 pip install --user annoy
 pip install numpy
-pip3 install cython
+pip3 install --upgrade cython
 echo "====================== numpy installed================="
 apt-get install -y pkg-config
 apt-get -y install libhdf5-dev
