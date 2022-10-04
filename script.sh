@@ -13,7 +13,8 @@
 #
 # ----------------------------------------------------------------------------
 
-# installing the required dependencies and files
+# this is the build script of annoy
+>>>>>>> performing a demo commit
 apt-get -y update
 apt-get -y install git
 echo "==git installed=="
