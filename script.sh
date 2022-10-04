@@ -5,6 +5,7 @@
 # Version    	    : be83fba
 # Source repo 	  : https://github.com/spotify/annoy.git
 # Tested on     	: 
+# Tested on   	:
 # Language        : python, C++, lua, go 
 # Travis-Check    : false
 # Script License  : Apache License 2.0
