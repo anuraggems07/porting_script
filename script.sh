@@ -5,7 +5,7 @@
 # Version    	    : be83fba
 # Source repo 	  : https://github.com/spotify/annoy.git
 # Tested on     	: 
-# Tested on   	:
+# Tested on   	  :
 # Language        : python, C++, lua, go 
 # Travis-Check    : false
 # Script License  : Apache License 2.0
@@ -15,7 +15,6 @@
 # ----------------------------------------------------------------------------
 
 # this is the build script of annoy
->>>>>>> performing a demo commit
 apt-get -y update
 apt-get -y install git
 echo "==git installed=="
